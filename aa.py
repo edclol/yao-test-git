@@ -1,23 +1,23 @@
 
 
 import tensorflow as tf
-from tensorflow import keras
-from tensorflow.keras.datasets import mnist
-from tensorflow import keras
+# from tensorflow import keras
+# from tensorflow.keras.datasets import mnist
+# from tensorflow import keras
 from tensorflow.keras.applications.vgg16 import VGG16
 from tensorflow.keras.layers import Dense, Flatten, Dropout
 from tensorflow.keras.models import Model
-from tensorflow.keras.optimizers import Adam
+# from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.datasets import cifar10
-import cv2  # 加载opencv，为了后期的图像处理
-from tensorflow.keras import datasets
-import h5py as h5py
+# import cv2  # 加载opencv，为了后期的图像处理
+# from tensorflow.keras import datasets
+# import h5py as h5py
 import numpy as np
-import matplotlib.pyplot as plt
-from tensorflow import keras
-from tensorflow.keras.utils import plot_model
-import matplotlib.pyplot as plt
-from tensorflow.keras.callbacks import ModelCheckpoint
+# import matplotlib.pyplot as plt
+# from tensorflow import keras
+# from tensorflow.keras.utils import plot_model
+# import matplotlib.pyplot as plt
+# from tensorflow.keras.callbacks import ModelCheckpoint
 ishape = 64
 def get_compiled_model():
     ishape = 64
